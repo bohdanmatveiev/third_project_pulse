@@ -1,0 +1,19 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 35px;
+    input {
+        margin-top: 13px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 0 20px;
+        font-weight: 300;
+        color: #4b4b4b;
+    }
+    &_mt20 {
+        margin-top: 20px;
+        width: auto;
+    }
+}

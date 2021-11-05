@@ -1,0 +1,474 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 665px;
+    }
+    .promo {
+        .header {
+            &__logo {
+                max-width: 200px;
+            }
+            &__official {
+                span {
+                    font-size: 16px;
+                }
+            }
+            &__phone {
+                font-size: 16px;
+            }
+        }
+        &__header {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subheader {
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+    .advantage {
+        min-height: 440px;
+        padding: 45px 0 80px 0;
+        &__item {
+            max-width: 170px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+        &__descr {
+            font-size: 13px;
+            margin-top: 12px;
+        }
+    }
+    .consultation {
+        min-height: 480px;
+        padding: 35px 0 40px 0;
+        .title {
+            &_left {
+                font-size: 26px;
+            }
+        }
+        &__descr {
+            font-size: 15px;
+        }
+        .feed-form {
+            margin-top: 10px;
+        }
+    }
+    .carousel {
+        &__inner {
+            max-width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .feed {
+        margin-bottom: 15px;
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        hr {
+            width: 665px;
+        }
+        &__descr {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__name {
+            margin-top: 25px;
+        }
+    }
+    .footer {
+        height: 400px;
+        iframe {
+            height: 400px;
+        }
+        &__info {
+            width: 340px;
+            height: 170px;
+            padding: 25px 35px 60px 35px;
+        }
+        &__addr {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 21px;
+        }
+        &__phone {
+            font-size: 18px;
+            line-height: 18px;
+            margin-bottom: 26px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+                img {
+                    height: 20px;
+                }
+            }
+        }
+    }
+    .modal {
+        width: 405px;
+        min-height: 310px;
+        background-color: #f2f2f2;
+        padding: 38px 38px 40px 38px;
+        &__close {
+            position: absolute;
+            top: 0;
+            right: -35px;
+            font-size: 31px;
+            line-height: 15px;
+            color: $main-color;
+            cursor: pointer;
+        }
+        &__subtitle {
+            font-size: 19px;
+            line-height: 19px;
+            font-weight: 700;
+            color: #0d0d0d;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 14px;
+            font-weight: 500;
+            color: #0d0d0d;
+            text-align: center;
+        }
+        &_mini {
+            min-height: 108px;
+        }
+    }
+} 
+ @media (max-width: 767px) {
+    .container {
+        max-width: 530px;
+    }
+    .promo {
+        .header {
+            &__logo {
+                max-width: 160px;
+            }
+            &__official {
+                font-size: 11px;
+                span {
+                    font-size: 15px;
+                }
+            }
+            &__phone {
+                font-size: 13px;
+            }
+            .button {
+                width: 130px;
+                height: 20px;
+                font-size: 10px;
+            }
+        }
+        &__icon {
+            font-size: 13px;
+            img {
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .consultation {
+        min-height: 430px;
+        padding: 25px 0 29px 0;
+        .title {
+            &_left {
+                font-size: 18px;
+            }
+        }
+        &__descr {
+            font-size: 14px;
+        }
+        .feed-form {
+            margin-top: 10px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 30px;
+        }
+        &__content {
+            justify-content: center;
+            margin-top: 40px;
+        }
+    }
+    .feed {
+        margin-bottom: 20px;
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        hr {
+            width: 530px;
+        }
+        &__descr {
+            width: 530px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__name {
+            margin-top: 20px;
+        }
+    }
+    .footer {
+        height: 325px;
+        iframe {
+            height: 325px;
+        }
+        &__info {
+            width: 300px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 28px;
+        }
+        &__phone {
+            font-size: 16px;
+            line-height: 16px;
+            margin-bottom: 25px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+                img {
+                    height: 20px;
+                }
+            }
+        } 
+    } 
+    .modal {
+        width: 350px;
+        min-height: 230px;
+        background-color: #f2f2f2;
+        padding: 38px 38px 40px 38px;
+        &__close {
+            position: absolute;
+            top: 0;
+            right: -35px;
+            font-size: 31px;
+            line-height: 15px;
+            color: $main-color;
+            cursor: pointer;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 16px;
+            font-weight: 700;
+            color: #0d0d0d;
+            text-align: center;
+            margin-bottom: 6px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 13px;
+            font-weight: 500;
+            color: #0d0d0d;
+            text-align: center;
+        }
+        &_mini {
+            min-height: 80px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+    .promo {
+        min-height: 500px;
+        padding: 21px 0 40px 0;
+        &__header {
+            font-size: 20px;
+            line-height: 11px;
+        }
+        &__subheader {
+            font-size: 11px;
+            line-height: 5px;
+        }
+        &__icons {
+            margin-top: 40px;
+            width: 300px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        .header {
+            &__logo {
+                max-width: 150px;
+            }
+            &__official {
+                display: none;
+            }
+        }
+        .button {
+            &_main {
+                margin: 0 auto;
+                margin-top: 50px;
+                width: 250px;
+                font-size: 15px;
+            }
+        }
+        &__link {
+            display: block;
+            margin: 0 auto;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+    }
+    .advantage {
+        padding: 20px 0 25px 0;
+        &__header {
+            font-size: 20px;
+            text-align: center;
+        }
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+        &__item {
+            margin-bottom: 30px;
+            max-width: 270px;
+        }
+    }
+    .consultation {
+        min-height: 430px;
+        padding: 25px 0 29px 0;
+        .title {
+            &_left {
+                font-size: 18px;
+                text-align: center;
+            }
+            br {
+                display: none;
+            }
+        }
+        &__descr {
+            font-size: 15px;
+            margin-top: 8px;
+            text-align: center;
+        }
+        .feed-form {
+            margin-top: 10px;
+        }
+    }
+    .carousel {
+        .slick-dots button {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            margin: 5px 5px;
+            font-size: 15px;
+        }
+    }
+    .feed {
+        margin-bottom: 0;
+        &__wrapper {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        hr {
+            width: 300px;
+        }
+        &__descr {
+            width: 300px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__name {
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        &-form_mt20 {
+            margin-top: 10px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .footer {
+        height: 250px;
+        iframe {
+            height: 250px;
+        }
+        &__info {
+            width: 200px;
+            height: 130px;
+            padding: 25px 12px 40px 12px;
+        }
+        &__addr {
+            font-size: 12px;
+            line-height: 12px;
+            margin-bottom: 19px;
+        }
+        &__phone {
+            font-size: 12px;
+            line-height: 12px;
+            margin-bottom: 13px;
+        }
+        &__social {
+            &-item {
+                width: 25px;
+                height: 25px;
+                img {
+                    height: 11px;
+                }
+            }
+        }
+    } 
+    .modal {
+        width: 250px;
+        min-height: 130px;
+        background-color: #f2f2f2;
+        padding: 19px 19px 20px 19px;
+        &__close {
+            position: absolute;
+            top: 0;
+            right: -35px;
+            font-size: 31px;
+            line-height: 15px;
+            color: $main-color;
+            cursor: pointer;
+        }
+        &__subtitle {
+            font-size: 15px;
+            line-height: 15px;
+            font-weight: 700;
+            color: #0d0d0d;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 12px;
+            font-weight: 500;
+            color: #0d0d0d;
+            text-align: center;
+        }
+        &_mini {
+            min-height: 50px;
+        }
+    }
+}
